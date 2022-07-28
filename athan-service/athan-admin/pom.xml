@@ -14,7 +14,11 @@
     <description>后台管理模块</description>
 
     <dependencies>
-
+        <dependency>
+            <groupId>io.athan</groupId>
+            <artifactId>athan-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 
