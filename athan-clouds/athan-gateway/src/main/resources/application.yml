@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+gateway:
+  swagger:
+    routes:
+      - name: admin-admin
+        location: /admin
+      - name: admin-auth
+        location: /auth
+  uris:
+    - /sys/auth/api/captcha
+    - /sys/auth/api/login
+    - /sys/auth/api/zfbLogin
+    - /actuator/**
+    - /swagger/api-docs
+    - /swagger-resources/**
+    - /doc.html
+    - /v2/api-docs
+    - /webjars/**
+    - /druid/**
+    - /ws/**

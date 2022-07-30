@@ -18,5 +18,6 @@
     <module>athan-security</module>
     <module>athan-common</module>
     <module>athan-log</module>
+    <module>athan-dynamic-datasource</module>
 </modules>
 </project>

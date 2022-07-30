@@ -1,6 +1,6 @@
 package com.athan.vo;
 
-import io.laokou.common.utils.TreeUtil;
+import com.athan.utils.TreeUtil;
 import lombok.Data;
 
 @Data

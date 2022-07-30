@@ -1,0 +1,33 @@
+
+jasypt:
+  encryptor:
+    password: liluping520hanyadong
+
+
+
+
+
+auth:
+  uris:
+    - permission: anon
+      url: /sys/auth/api/login
+    - permission: anon
+      url: /webjars/**
+    - permission: anon
+      url: /swagger/api-docs
+    - permission: anon
+      url: /actuator/**
+    - permission: anon
+      url: /v2/api-docs
+    - permission: anon
+      url: /doc.html
+    - permission: anon
+      url: /swagger-resources/**
+    - permission: anon
+      url: /sys/auth/api/captcha
+    - permission: anon
+      url: /druid/**
+    - permission: anon
+      url: /sys/auth/api/zfbLogin
+    - permission: anon
+      url: /favicon.ico
